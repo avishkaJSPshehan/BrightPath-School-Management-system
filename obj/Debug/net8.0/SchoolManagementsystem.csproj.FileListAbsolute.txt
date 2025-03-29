@@ -28,3 +28,4 @@ D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\refint\SchoolMan
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.pdb
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.genruntimeconfig.cache
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\ref\SchoolManagementsystem.dll
+D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.sourcelink.json
