@@ -1,2 +1,2 @@
-# BrightPath-Schoo-lManagement-system
+# BrightPath-School-Management-system
  
