@@ -2,7 +2,28 @@
     ViewData["Title"] = "BrightPath - Home Page";
 }
 
+@model SchoolManagementsystem.Models.Student
+
 <div class="text-center">
     <h1 class="display-8">Add New Student</Address></h1>
 </div>
+
+<form asp-action="CreateEditStudentForm" asp-controller="Home">
+    <label>Id</label>
+    <input class="form-control" type="number" placeholder="Add Student ID" asp-for="Id"/>
+
+    <label class="mt-4">Name</label>
+    <input class="form-control" type="text" placeholder="Student Full Name" asp-for="Name"/>
+
+    <label class="mt-4">Age</label>
+    <input class="form-control" type="number" placeholder="Student Age" asp-for="Age"/>
+
+    <label class="mt-4">Grade</label>
+    <input class="form-control" type="number" placeholder="Grade [Ex- 8]" asp-for="Grade"/>
+
+    <label class="mt-4">Description</label>
+    <input class="form-control" type="text" placeholder="Add Description if Need" asp-for="Description"/>
+    <br/>
+    <button class="btn btn-primary" type="submit">Add New</button>
+</form>
 

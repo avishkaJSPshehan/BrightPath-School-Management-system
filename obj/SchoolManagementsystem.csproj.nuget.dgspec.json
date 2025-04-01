@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {}
+    "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {}
   },
   "projects": {
-    "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {
+    "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
+        "projectUniqueName": "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
         "projectName": "SchoolManagementsystem",
-        "projectPath": "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
+        "projectPath": "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming Projects\\SchoolManagementsystem\\obj\\",
+        "outputPath": "d:\\Programming Projects\\SchoolManagementsystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
