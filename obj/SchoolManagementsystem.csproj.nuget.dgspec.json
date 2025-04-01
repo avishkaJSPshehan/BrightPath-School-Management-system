@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {}
+    "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {}
   },
   "projects": {
-    "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {
+    "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
+        "projectUniqueName": "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
         "projectName": "SchoolManagementsystem",
-        "projectPath": "d:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
+        "projectPath": "D:\\Programming Projects\\SchoolManagementsystem\\SchoolManagementsystem.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming Projects\\SchoolManagementsystem\\obj\\",
+        "outputPath": "D:\\Programming Projects\\SchoolManagementsystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +47,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
