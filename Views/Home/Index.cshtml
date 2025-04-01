@@ -2,9 +2,69 @@
     ViewData["Title"] = "BrightPath - Home Page";
 }
 
+@model List<Student>
+
 <div class="text-center">
     <h1 class="display-8">Dashboard</h1>
 
-    
+    <br/>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+
+                <th>
+                    Name
+                </th>
+
+                <th>
+                    Age
+                </th>
+
+                <th>
+                    Grade
+                </th>
+
+                <th>
+                    Description
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var student in Model){
+                    <tr>
+                        <td>
+                           @student.Id 
+                        </td>
+                        <td>
+                           @student.Name
+                        </td>
+                        <td>
+                           @student.Age
+                        </td>
+                        <td>
+                           @student.Grade
+                        </td>
+                        <td>
+                           @student.Description
+                        </td>
+                        <td>
+                            <a asp-action="Addnew" asp-route-id="@student.Id" class="btn btn-warning">Edit</a>
+                            <a asp-action="DeleteStudent" asp-route-id="@student.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
     <a asp-action="Addnew" class="btn btn-primary">Add New</a>
 </div>

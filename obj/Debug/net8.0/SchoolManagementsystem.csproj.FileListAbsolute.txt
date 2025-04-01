@@ -29,3 +29,8 @@ D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagement
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.genruntimeconfig.cache
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\ref\SchoolManagementsystem.dll
 D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.sourcelink.json
+D:\Programming Projects\SchoolManagementsystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Programming Projects\SchoolManagementsystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming Projects\SchoolManagementsystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolManagementsystem.csproj.AssemblyReference.cache
+D:\Programming Projects\SchoolManagementsystem\obj\Debug\net8.0\SchoolMa.D9E736E0.Up2Date

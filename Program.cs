@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolManagementsystem.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<SchoolManagementSystemDbContext>(options =>
+    options.UseInMemoryDatabase("BrightPathDB")
+);
 
 var app = builder.Build();
 
